@@ -13,12 +13,13 @@ int main()
         scanf("%d", &vetor1[i]);
     }
 
-
+    // lendo o segundo vetor
     for (i = 0; i < numero_de_elementos; i++)
     {
         scanf("%d", &vetor2[i]);
     }
 
+    // escrever na tela de forma intercalada
     for (i = 0; i < numero_de_elementos; i++)
     {
         printf("%d %d ", vetor1[i], vetor2[i]);
