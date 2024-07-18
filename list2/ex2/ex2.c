@@ -7,7 +7,7 @@ int main()
     int vetor1[numero_de_elementos];
     int vetor2[numero_de_elementos];
 
-    // lendo o promeiro vetor
+    // lendo o primeiro vetor
     for (i = 0; i < numero_de_elementos; i++)
     {
         scanf("%d", &vetor1[i]);
